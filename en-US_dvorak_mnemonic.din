@@ -1,0 +1,213 @@
++-----------------------------------------------------------------------+
++		Input Table for  Windows IME	en_US Dvorak     	+
++	Defined for V14.1 and the US Dvorak keyboard		   	+
++									+
++	Note: By default Shift-Ctrl-0 (Nand) cannot be entered		+
++		 if you are using Windows Vista or above;		+
++		 Search for Nand in Dyalog Forums for more info 	+
++-----------------------------------------------------------------------+
+
+MOD:special_keys.din
+
++-----------------------------------------------------------------------+
++	APL and non-native keyboard characters				+
++-----------------------------------------------------------------------+
+
++UNI Desc		Shift  Key	+ Name
+
+ 8900=Ctrl+` :		2	192	+ Diamond
+  168=Ctrl+1 :		2	49	+ Diaeresis (Each)
+  175=Ctrl+2 :		2	50	+ Overbar (High Minus)
+   60=Ctrl+3 :		2	51	+ Less Than
+ 8804=Ctrl+4 :		2	52	+ Less Than or Equal
+   61=Ctrl+5 :		2	53	+ Equal
+ 8805=Ctrl+6 :		2	54	+ Greater Than or Equal
+   62=Ctrl+7 :		2	55	+ Greater Than
+ 8800=Ctrl+8 :		2	56	+ Not-Equal
+ 8744=Ctrl+9 :		2	57	+ Down-Caret (Or)
+ 8743=Ctrl+0 :		2	48	+ Up-Caret (And)
+  215=Ctrl+- :		2	222	+ Multiply (Signum)
+  247=Ctrl+= :		2	221	+ Divide (Reciprocal)
+
++    =Shift+Ctrl+` :			+ Unused 
+ 9014=Shift+Ctrl+1 :	3	49	+ I-Beam
+ 9067=Shift+Ctrl+2 :	3	50	+ Del-Tilde
+ 9042=Shift+Ctrl+3 :	3	51	+ Grade Down
+ 9035=Shift+Ctrl+4 :	3	52	+ Grade Up
+ 9021=Shift+Ctrl+5 :	3	53	+ Rotate
+ 9033=Shift+Ctrl+6 :	3	54	+ Transpose
+ 8854=Shift+Ctrl+7 :	3	55	+ Reflect
+ 9055=Shift+Ctrl+8 :	3	56	+ Log
+ 9073=Shift+Ctrl+9 :	3	57	+ Nor
+ 9074=Shift+Ctrl+0 :	3	48	+ Nand
+   33=Shift+Ctrl+- :	3	222	+ Exclamation
+ 9017=Shift+Ctrl+= :	3	221	+ Domino
+
+
+   63=Ctrl+q :		2	88	+ Query
+ 9077=Ctrl+w :		2	188	+ Omega
+ 8714=Ctrl+e :		2	68	+ Epsilon (Type Membership)
+ 9076=Ctrl+r :		2	79	+ Rho 
+  126=Ctrl+t :		2	75	+ Tilde (Not Exclude Without)
+ 8593=Ctrl+y :		2	84	+ Up-Arrow (Mix Take)
+ 8595=Ctrl+u :		2	70	+ Down-Arrow (Split Drop)
+ 9075=Ctrl+i :		2	71	+ Iota 
+ 9675=Ctrl+o :		2	83	+ Circle (Trig)
+   42=Ctrl+p :		2	82	+ Star (Exponential Power)
+ 8592=Ctrl+[ :		2	189	+ Left-Arrow (Assign Specify)
+ 8594=Ctrl+] :		2	187	+ Right-Arrow (Branch)
+ 8866=Ctrl+\ :		2	220	+ Right-Tack
+
++    =Shift+Ctrl+q :			+ Unused
++    =Shift+Ctrl+w :			+ Unused
+ 9079=Shift+Ctrl+e :	3	68	+ Epsilon Underbar
++    =Shift+Ctrl+r :			+ Unused
+ 9064=Shift+Ctrl+t :	3	75	+ Commute
++    =Shift+Ctrl+y :			+ Unused
++    =Shift+Ctrl+u :			+ Unused
+ 9080=Shift+Ctrl+i :	3	71	+ Iota Underbar
+ 9061=Shift+Ctrl+o :	3	83	+ Circle Diaeresis
+ 9059=Shift+Ctrl+p :	3	82	+ Power Operator
+ 9054=Shift+Ctrl+[ :	3	189	+ Quote Quad
+ 9068=Shift+Ctrl+] :	3	187	+ Zilde
+ 8867=Shift+Ctrl+\ :	3	220	+ Left-Tack
+
+
+,9082=Ctrl+a :		2	65	+ Alpha
+ 8968=Ctrl+s :		2	186	+ Ceiling (Max)
+ 8970=Ctrl+d :		2	72	+ Floor (Min)
+   95=Ctrl+f :		2	89	+ Underscore
+ 8711=Ctrl+g :		2	85	+ Del (Function Edit)
+ 8710=Ctrl+h :		2	74	+ Delta
+ 8728=Ctrl+j :		2	67	+ Jot (Compose Outer)
+   39=Ctrl+k :		2	86	+ Single Quote
+ 9109=Ctrl+l :		2	80	+ Quad 
+ 9038=Ctrl+; :		2	90	+ Down-Tack Jot (Execute)
+ 9045=Ctrl+' :		2	81	+ Up-Tack Jot (Format)
+
+,9082=Shift+Ctrl+a :	3	65	+ Alpha
++    =Shift+Ctrl+s :			+ Unused
++    =Shift+Ctrl+d :			+ Unused
++    =Shift+Ctrl+f :			+ Unused
++    =Shift+Ctrl+g :			+ Unused
++    =Shift+Ctrl+h :			+ Unused
+ 9060=Shift+Ctrl+j :	3	67	+ Rank
+ 9016=Shift+Ctrl+k :	3	86	+ Key
+ 9015=Shift+Ctrl+l :	3	80	+ Squad 
+ 8801=Shift+Ctrl+; :	3	90	+ Equal Underbar (Match)
+ 8802=Shift+Ctrl+' :	3	81	+ Not-Equal Underbar (Natch)
+
+
+,8834=Ctrl+z :		2	191	+ Left-Shoe (Enclose)	Uncomment for APL usage not Windows
++,8835=Ctrl+x :		2	66	+ Right-Shoe (Disclose)	Uncomment for APL usage not Windows
++,8745=Ctrl+c :		2	73	+ Up-Shoe (Intersect)	Uncomment for APL usage not Windows
++,8746=Ctrl+v :		2	190	+ Down-Shoe (Union)	Uncomment for APL usage not Windows
+ 8869=Ctrl+b :		2	78	+ Down-Tack (Decode Base)
+ 8868=Ctrl+n :		2	76	+ Up-Tack (Encode Represent)
+  124=Ctrl+m :		2	77	+ Vertical Bar
+ 9053=Ctrl+, :		2	87	+ Up-Shoe Jot (Lamp Comment)
+ 9024=Ctrl+. :		2	69	+ Back-Slash Bar
+ 9023=Ctrl+/ :		2	219	+ Slash Bar
+
+,8834=Shift+Ctrl+z :	3	191	+ Left-Shoe (Enclose)   Comment out for APL usage not Windows
+,8835=Shift+Ctrl+x :	3	66	+ Right-Shoe (Disclose) Comment out for APL usage not Windows
+,8745=Shift+Ctrl+c :	3	73	+ Up-Shoe (Intersect)   Comment out for APL usage not Windows
+,8746=Shift+Ctrl+v :	3	190	+ Down-Shoe (Union)     Comment out for APL usage not Windows
++    =Shift+Ctrl+b :			+ Unused
++    =Shift+Ctrl+n :			+ Unused
++    =Shift+Ctrl+m :			+ Unused
+ 9066=Shift+Ctrl+, :	3	87	+ Comma Bar (Catenate 1st)
+ 9049=Shift+Ctrl+. :	3	69	+ Delta Underbar
+ 9056=Shift+Ctrl+/ :	3	219	+ Quad Colon (Variant)
+
+
++-----------------------------------------------------------------------+
++	Dvorak keys                                                     +
++-----------------------------------------------------------------------+
++ Special keys(normal/shifted): [{]}
+91:                             189     + [
+123:                    1       189     + {
+93:                             187     + ]
+125:                    1       187     + }
++ 2 more special keys(normal/shifted): \| and -_
+92:                             220     + \  
+124:                    1       220     + |
+45:                             222     + -
+95:                     1       222     + _
++ 4 more special keys(normal/shifted): `~ \| /? =+
+96:                             192     + `
+126:                    1       192     + ~
+92:                             226     + \
+124:                    1       226     + |
+47:                             219     + /
+63:                     1       219     + ?
+61:                             221     + =
+43:                     1       221     + +
++ 1st row, first 5 keys: '",<.>pPyY
+39:                             81      + '
+34:                     1       81      + "
+44:                             87      + ,
+60:                     1       87      + <
+46:                             69      + .
+62:                     1       69      + >
+112:                            82      + p
+80:                     1       82      + P
+121:                            84      + y
+89:                     1       84      + Y
++ 1st row, second 5 keys: fFgGcCrRlL
+102:                            89      + f 
+70:                     1       89      + F
+103:                            85      + g
+71:                     1       85      + G
+99:                             73      + c
+67:                     1       73      + C
+114:                            79      + r
+82:                     1       79      + R
+108:                            80      + l
+76:                     1       80      + L
++ 2nd row, first 5 keys: aAoOeEuUiI
+97:                             65      + a
+65:                     1       65      + A
+111:                            83      + o
+79:                     1       83      + O
+101:                            68      + e
+69:                     1       68      + E
+117:                            70      + u
+85:                     1       70      + U
+105:                            71      + i
+73:                     1       71      + I
++ 2nd row, second 5 keys: dDhHtTnNsS
+100:                            72      + d
+68:                     1       72      + D
+104:                            74      + h
+72:                     1       74      + H
+116:                            75      + t
+84:                     1       75      + T
+110:                            76      + n
+78:                     1       76      + N
+115:                           186      + s
+83:                     1      186      + s
++ 3rd row, first keys: ;:qQjJkKxX
+59:                             90      + ;
+58:                     1       90      + ~
+113:                            88      + q
+81:                     1       88      + Q
+106:                            67      + j
+74:                     1       67      + J
+107:                            86      + k
+75:                     1       86      + K
+120:                            66      + x
+88:                     1       66      + X
++ 3rd row, second keys: bBmMwWvVzZ
+98:                             78      + b
+66:                     1       78      + B
+109:                            77      + m
+77:                     1       77      + M
+119:                           188      + w
+87:                     1      188      + W
+118:                           190      + v
+86:                     1      190      + V
+122:                           191      + z
+90:                     1      191      + Z
+
+
