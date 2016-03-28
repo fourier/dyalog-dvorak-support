@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.0.22 on 2015-10-01 at 23:38 (CEST)-->
+<!--Last edited by Ukelele version 3.0.0.43 on 2016-02-24 at 23:47 (CET)-->
 <keyboard group="126" id="-12411" maxout="1" name="Dvorak-APL">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -558,7 +558,7 @@
 			<key code="12" output="⍎"/>
 			<key code="13" output="⍪"/>
 			<key code="14" output=""/>
-			<key code="15" output=""/>
+			<key code="15" output="⍣"/>
 			<key code="16" output=""/>
 			<key code="17" output=""/>
 			<key code="18" output="⌶"/>
