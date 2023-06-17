@@ -1,11 +1,11 @@
-## Dvorak support for Dyalog APL/Win
-If you are user of the Dyalog APL for Windows and would like to use US Dvorak keyboard layout, these files are in help. It is a Dyalog Unicode IME mapping for the Dvorak layout. Here are 2 files, one for US/Dvorak with default APL characters mapping(no redefines for APL keys), another for US/Dvorak mnemonic APL characters location. I've made it taking into consideration my keyboard (Kinesis Advantage), so probably few tweeks will be needed for ordinary keyboards (like location of the / or |), but otherwise it should work for other Dvorak users.
+# Give Up GitHub
 
-### Usage
-- Save these files to "C:\Program Files\Dyalog\UnicodeIME\aplkeys\".
-- Start Dyalog
-- Go to Options->Configure->Unicode input->Configure Layout… and select a proper file.
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
 
- 
+You can now find this project at [https://codeberg.org/fourier/dyalog-dvorak-support](https://codeberg.org/fourier/dyalog-dvorak-support) instead.
 
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
 
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
